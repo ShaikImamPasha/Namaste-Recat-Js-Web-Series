@@ -1,4 +1,4 @@
-# NamasteDev Inception Chapter-1 🚀
+# 🚀Namaste Inception Chapter-1❤️
 
 ## 🤔 what is Emmet ?
 #### 👉Emmet is set of plug-ins for text editors that allows for high speed-coding  and editing in HTML,xml and other.
