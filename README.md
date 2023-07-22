@@ -1,4 +1,4 @@
 # ❤️ Namaste React Web Series ❤️
 ### Inception Chapter-1 
-- ### 📚 [Theory](https://github.com/ShaikImamPasha/NamasteDev-Recat-Js-Web-Series/tree/main/Inception_Ep_1/Coding)
-- ### 📚 [Coding](https://github.com/ShaikImamPasha/NamasteDev-Recat-Js-Web-Series/tree/main/Inception_Ep_1/Theory)
+- ### 📚 [Theory](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Inception_Chapter_1/Theory/Theory.md)
+- ### 📚 [Coding](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/tree/main/Inception_Chapter_1/Coding)
