@@ -1,0 +1,31 @@
+{
+  "name": "namastedev-recat-js-web-series",
+  "version": "1.0.0",
+  "description": "teaching by akshy",
+  "scripts": {
+    "test": "just"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaikImamPasha/NamasteDev-Recat-Js-Web-Series.git"
+  },
+  "author": "sk imam pasha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaikImamPasha/NamasteDev-Recat-Js-Web-Series/issues"
+  },
+  "homepage": "https://github.com/ShaikImamPasha/NamasteDev-Recat-Js-Web-Series#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+
+  },
+  "browserlist": [
+    "Last 2 Chrome version",
+    "Last 2 Firefox version"
+  ]
+}
