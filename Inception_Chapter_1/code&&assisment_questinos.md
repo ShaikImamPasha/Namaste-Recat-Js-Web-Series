@@ -8,7 +8,7 @@
 #### ->what are async and defer?
 
 
-### Coding - 
+### Code - 
 #### ->set up all the tools on your laptop 
 #### @vscode 
 #### @chrome 

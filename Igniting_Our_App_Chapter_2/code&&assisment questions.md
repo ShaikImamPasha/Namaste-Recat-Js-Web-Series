@@ -13,7 +13,7 @@
 #### ->what is 'browserlists' Read about diff boundlers:vite,webpack,parcel
 #### ->read about ~(tilda) and ^(caret)
 
-### Coding:-
+### Code:-
 #### -->intialize 'npm' into your repo 
 #### -->install 'react' and 'recat-dom'
 #### -->remove CDN links of react
