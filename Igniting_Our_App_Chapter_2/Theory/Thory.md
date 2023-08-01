@@ -1,7 +1,7 @@
 # 🚀Namaste Igniting_Our_App Chapter-1❤️
-## 🗒️ note 
+## 🗒️ Note 
 
-#### ✔️react is also make app fast🚀 but we need another packages also need for make app fast.
+#### ✔️React is also make app fast🚀 but we need another packages also need for make app fast.
 #### ✔️npm doesn't have starnded name.
 #### ✔️npm manage tha packages (or) libraryes.
 ### -->transitive dependency :-
@@ -10,19 +10,19 @@
 #### ✔️we don't need to put node_modules in git.
 #### ✔️if we have package.json and pakage-lock.json then we can create or ganurate tha node_modules(npm install).
 
-### react can injuctes this following ways:>
+### React Can Injuctes This Following Ways:>
 #### ✔️using cdn react links.(cdn linkes are not prefer to bring react into our project.it is coast becase its cakll network and alose we need upadte links respoctively react updates.)
 #### ✔️using npm(npm create-react-app here automatically react and react-dom will be installed with template.)
 #### ✔️using npm(npm install react and npm install react-dom) it is dipendency not dev dependency.
 
 #### ::- 📚 [NPM js web site](https://www.npmjs.com/)
-### ->npm for install packeges.
+### ->NPM for install packeges.
 #### 👉 npm init :: package.json
 #### 👉 npm install :: based on package-lock.json tha required node_modules created.
 #### 👉 npm install -D parcel :: parcel dependency installed and also package-lock.json and node_modules also.
 #### ✔️ npx parcel file_name(index.html) for executing or it's create server and hoest our app on server with 1234 port number.
-### /////////////////////////////////////////////////////////////////////////////////////////////////////
-### ->npx meanes executing tha package.
+### -------------------------------------------------------------------------
+### ->NPX meanes executing tha package.
 
 ### <--now inject react without uding cdn linkes--->
 #### 👉1.npm install react
@@ -31,7 +31,7 @@
 #### 👉and also u got one error that is Add type="module" to script becase browser can't understand import keyword and
 #### 👉it's consider as a normal js.so that's why we need add type="module" in script tag.
 
-### ->parcel (parceljs.org)
+### ->PARCEL (parceljs.org)
 #### ✔️create loacal server 
 #### ✔️HMR = Hot Module Replacement (automatic reloaded or updated).
 #### ✔️parcel uses File watching algorithm which was written in c++ it's keep on track of our file.
