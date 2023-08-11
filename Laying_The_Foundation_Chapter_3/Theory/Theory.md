@@ -34,7 +34,7 @@ const JSXheading=<h1>this is heading tag</h1>
 #### ✔️There are two types are there 
 #### 👉1.class based component 
 #### 👉2.functional component 
-### Functional Component 😘
+### Function Component 😘
 #### ✔️it is just a java script function which return reactelements or JSX.
 #### ✔️we can call tha component like 
 ```
@@ -75,7 +75,7 @@ root.render(<heading/>);
 #### ✔️code can be reduced.
 
 
-#### ✔️🤔3.Role of type attribut in script tag?what options can i use there?
+### ✔️🤔3.Role of type attribut in script tag?what options can i use there?
 #### 👉The HTML script type Attribute is used to specify the MIME type of script and identify the content of the Tag. It has a Default value which is “text/javascript”.
 #### ✔️Tha type values are :- 
 #### 👉text/javascript (this is default):It is the basic standard of writing javascript code inside the script tag.
