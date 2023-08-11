@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "teaching by akshy",
   "scripts": {
+    "build":"parcel build ./Laying_The_Foundation_Chapter_3/Coding/index.html",
+    "start":"parcel ./Laying_The_Foundation_Chapter_3/Coding/index.html",
     "test": "just"
   },
   "repository": {
