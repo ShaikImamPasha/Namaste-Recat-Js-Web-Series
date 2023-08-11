@@ -24,7 +24,7 @@ const JSXheading=<h1>this is heading tag</h1>
 ```
 #### ✔️Tha 👆 code is JSX and in tha browser js engine can't understand tha above code.if we are use tha babel library then it will convert into react core code and it's finnaly a object.
 #### ✔️If we use tha parcel dependency then it will be install tha babel.
-#### ✔️Babel is not created by facebook.
+#### ✔️Babel is not created by facebook.(babeljs.com)
 ##### ✔️JSX => React.createElement =>HTML element 
 
 #### <-------------------------------------> 
@@ -57,5 +57,28 @@ const heading_rendering=()=>{
 const root=ReactDOM.createRoot(document.getElementById("root"));
 root.render(<HeadingComponent/>);
 ```
+#### <-------------------------------------> 
+### Assignment
+### 🤔1.What is JSX?
+#### ✔️JSX full form is javascript XML.it is like html or like xml.
+#### ✔️it is not html in js.
+#### ✔️basically tha javascript engine directly can't understand tha jsx.so babel library package is used to convert this code into react core code.
+#### 👉Example :- 
+```
+const heading=<h1>...</h1>;
+const root=ReactDOM.createRoot(document.getElementById("root"));
+root.render(<heading/>);
+``` 
+### 🤔2.Superpowers of JSX 
+#### 👉JSX is sanitizing that's mean it dosn't allow tha vireses which are can accesse tha our details in tha cookies or caches. 
+#### ✔️it is used to eassy to write tha code.
+#### ✔️code can be reduced.
 
 
+#### ✔️🤔3.Role of type attribut in script tag?what options can i use there?
+#### 👉The HTML script type Attribute is used to specify the MIME type of script and identify the content of the Tag. It has a Default value which is “text/javascript”.
+#### ✔️Tha type values are :- 
+#### 👉text/javascript (this is default):It is the basic standard of writing javascript code inside the script tag.
+#### 👉text/ecmascript:this value indicates that the script is following the EcmaScript standards.
+#### 👉module: This value tells the browser that the script is a module that can import or export other files or modules inside it.
+#### 👉text/typescript: As the name suggest the script is written in TypeScript
