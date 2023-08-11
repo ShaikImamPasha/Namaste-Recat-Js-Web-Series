@@ -13,7 +13,7 @@
 - ### 📚 [Theory](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Laying_The_Foundation_Chapter_3/Theory/Theory.md)
 - ### 📚 [Coding](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/tree/main/Laying_The_Foundation_Chapter_3/Coding)
 - ### 📚 [Coding with assisment](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Laying_The_Foundation_Chapter_3/Coding/Assignment.js)
-- ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Igniting_Our_App_Chapter_2/code%26%26assisment%20questions.md)
+- ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Laying_The_Foundation_Chapter_3/code%26%26assisment_questinos.md)
 
 
 
