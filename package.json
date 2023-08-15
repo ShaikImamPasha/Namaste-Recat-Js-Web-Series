@@ -4,7 +4,7 @@
   "description": "teaching by akshy",
   "scripts": {
     "build":"parcel build ./Laying_The_Foundation_Chapter_3/Coding/index.html",
-    "start":"parcel ./Laying_The_Foundation_Chapter_3/Coding/index.html",
+    "start":"parcel ./Taik_Is_Cheap__Show_Me_The_Code!_Chapter_4/coding/index.html",
     "test": "just"
   },
   "repository": {

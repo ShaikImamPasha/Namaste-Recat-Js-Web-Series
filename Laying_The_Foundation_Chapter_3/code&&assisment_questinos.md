@@ -1,12 +1,12 @@
 ### Topics-
 #### JSX 
-✔️React.createElement vs JSX 
-✔️Benfit of JSX 
-✔️Behind the Scenes of JSX 
-✔️Babel and parcel role in JSX
-✔️Components 
-✔️Functional Components  
-✔️Composing Componentes
+#### ✔️React.createElement vs JSX 
+#### ✔️Benfit of JSX 
+#### ✔️Behind the Scenes of JSX 
+#### ✔️Babel and parcel role in JSX
+#### ✔️Components 
+#### ✔️Functional Components  
+#### ✔️Composing Componentes
 ### Theory-
 #### ->1.What is JSX?
 #### ->2.Superpowers of JSX 

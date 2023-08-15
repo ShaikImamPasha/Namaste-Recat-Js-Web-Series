@@ -75,7 +75,7 @@ root.render(<heading/>);
 #### ✔️code can be reduced.
 
 
-### ✔️🤔3.Role of type attribut in script tag?what options can i use there?
+### 🤔3.Role of type attribut in script tag?what options can i use there?
 #### 👉The HTML script type Attribute is used to specify the MIME type of script and identify the content of the Tag. It has a Default value which is “text/javascript”.
 #### ✔️Tha type values are :- 
 #### 👉text/javascript (this is default):It is the basic standard of writing javascript code inside the script tag.
