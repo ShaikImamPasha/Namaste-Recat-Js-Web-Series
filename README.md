@@ -14,6 +14,14 @@
 - ### 📚 [Coding](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/tree/main/Laying_The_Foundation_Chapter_3/Coding)
 - ### 📚 [Coding with assisment](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Laying_The_Foundation_Chapter_3/Coding/Assignment.js)
 - ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Laying_The_Foundation_Chapter_3/code%26%26assisment_questinos.md)
+### <------------------------------------->
+ ### Laying_The_Foundation Chapter-3 🚀
+- ### 📚 [Theory](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Taik_Is_Cheap__Show_Me_The_Code!_Chapter_4/Theory/Theory.md)
+- ### 📚 [Coding](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/tree/main/Taik_Is_Cheap__Show_Me_The_Code!_Chapter_4/coding)
+- ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Taik_Is_Cheap__Show_Me_The_Code!_Chapter_4/code%26%26assisment_questinos.md)
+
+
+
 
 
 
