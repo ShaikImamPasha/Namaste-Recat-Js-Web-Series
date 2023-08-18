@@ -1,4 +1,4 @@
-# 🚀Namaste Inception Chapter-4❤️ 
+# 🚀Namaste Taik_Is_Cheap__Show_Me_The_Code!_Chapter_4❤️ 
 ### 1.🤔Is JSX mandatory for React? 
 #### ✔️no.Jst element is just syntactic suger for calling react. 
 ### 2.🤔Is ES6 mandatory for React? 

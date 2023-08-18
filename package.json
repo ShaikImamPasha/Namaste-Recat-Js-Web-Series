@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "teaching by akshy",
   "scripts": {
-    "build":"parcel build ./Laying_The_Foundation_Chapter_3/Coding/index.html",
-    "start":"parcel ./Taik_Is_Cheap__Show_Me_The_Code!_Chapter_4/coding/index.html",
+    "build": "parcel build ./Laying_The_Foundation_Chapter_3/Coding/index.html",
+    "start": "parcel ./Let's_get_Hooked_Chapter_5/Coding/index.html",
     "test": "just"
   },
   "repository": {
@@ -24,7 +24,6 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-
   },
   "browserlist": [
     "Last 2 Chrome version",
