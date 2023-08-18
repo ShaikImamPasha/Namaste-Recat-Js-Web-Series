@@ -20,6 +20,11 @@
 - ### 📚 [Coding](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/tree/main/Taik_Is_Cheap__Show_Me_The_Code!_Chapter_4/coding)
 - ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Taik_Is_Cheap__Show_Me_The_Code!_Chapter_4/code%26%26assisment_questinos.md)
 
+### <------------------------------------->
+ ### Let's_get_Hooked_Chapter_5🚀
+- ### 📚 [Theory](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Let's_get_Hooked_Chapter_5/Theory/Theory.md)
+- ### 📚 [Coding](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/tree/main/Let's_get_Hooked_Chapter_5/Coding)
+- ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Let's_get_Hooked_Chapter_5/code%26%26assisment_questinos.md)
 
 
 

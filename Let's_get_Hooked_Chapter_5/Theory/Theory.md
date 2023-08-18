@@ -1,7 +1,7 @@
 # 🚀Namaste Let's_get_Hooked_Chapter_5❤️
 ## 🗒️ Note  
-### we can follow any type of folder struture we want.but react is not recomandant tha struture of folder. 
-### we can set any type of file extend as .js,.jsx,tsx to tha files of react files.
+### ✔️we can follow any type of folder struture we want.but react is not recomandant tha struture of folder. 
+### ✔️we can set any type of file extend as .js,.jsx,tsx to tha files of react files.
 ### 1.🤔What is the difference between Named export,Defauilt export and * as export? 
 #### ✔️There are 2 types of import and export are there: 
 #### - Named Export   
@@ -35,7 +35,7 @@ import * as objtype from "./App";
 import {useState} from "react";
 
 const resuilts=useState([]);
-const [stateVairable,setStateVairable]-resuilts;
+const [stateVairable,setStateVairable]=resuilts;
 ```
 
 
