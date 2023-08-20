@@ -27,7 +27,6 @@ const AppLayout=()=>{
         <div className="app">
           <objtype.Header/>
           <Body/>
-          
         </div>
     )
 }

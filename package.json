@@ -4,7 +4,7 @@
   "description": "teaching by akshy",
   "scripts": {
     "build": "parcel build ./Laying_The_Foundation_Chapter_3/Coding/index.html",
-    "start": "parcel ./Let's_get_Hooked_Chapter_5/Coding/index.html",
+    "start": "parcel ./Exploring_The_World_Chapter_6/Coding/index.html",
     "test": "just"
   },
   "repository": {
