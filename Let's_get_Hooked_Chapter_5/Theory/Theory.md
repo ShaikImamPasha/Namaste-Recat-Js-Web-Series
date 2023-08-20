@@ -29,7 +29,7 @@ import * as objtype from "./App";
 #### ✔️it is normal js utility function given by tha facebook developers (react). 
 ### 4.Why do we need a useState Hook?
 #### ✔️useState is a React Hook and gives tha two parameter resultes as a array.   
-#### ✔️one is a state vairable which is maintain tha state of function component and when tha state value is upadated then re-render tha ui(particulare updated elementes).
+#### ✔️one is a state vairable which is maintain tha state of function component and when tha state value is upadated then re-render tha component and ui(particulare updated elementes).
 #### ✔️another one is function which is used to update tha value of state vairable. 
 ```
 import {useState} from "react";
