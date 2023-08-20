@@ -26,6 +26,11 @@
 - ### 📚 [Coding](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/tree/main/Let's_get_Hooked_Chapter_5/Coding)
 - ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Let's_get_Hooked_Chapter_5/code%26%26assisment_questinos.md)
 
+### <------------------------------------->
+ ### Exploring_The_World_Chapter_6🚀
+- ### 📚 [Theory](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Exploring_The_World_Chapter_6/Theory/Theory.md)
+- ### 📚 [Coding](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/tree/main/Exploring_The_World_Chapter_6/Coding)
+- ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Exploring_The_World_Chapter_6/code%26%26assisment_questions.md)
 
 
 
