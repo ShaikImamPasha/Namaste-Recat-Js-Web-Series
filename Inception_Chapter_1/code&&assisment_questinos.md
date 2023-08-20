@@ -9,15 +9,15 @@
 
 
 ### Code - 
-#### ->set up all the tools on your laptop 
-#### @vscode 
-#### @chrome 
-#### @Extensions of chrome 
-#### ->create a new git repo 
-#### ->Build your first Hello world program using.
-#### @using html 
-#### @using js to manipulte the dom
-#### @using react
+#### ✔️->set up all the tools on your laptop 
+#### ✔️@vscode 
+#### ✔️@chrome 
+#### ✔️@Extensions of chrome 
+#### ✔️->create a new git repo 
+#### ✔️->Build your first Hello world program using.
+#### ✔️@using html 
+#### ✔️@using js to manipulte the dom
+#### ✔️@using react
 #### ->use CDN Links
 #### ->Create an Element 
 #### ->create nested react elements

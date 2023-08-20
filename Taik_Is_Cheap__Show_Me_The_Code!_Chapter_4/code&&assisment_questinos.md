@@ -11,13 +11,13 @@
 ### 10.🤔What is props in React?
 ### 11.🤔What is Config Driven UI?  
 ## Coding- 
-### Build a food Ordering app 
-### Think of a coll name for your app 
-### Build a AppLayout
-### Build a header componet with Logo & nav Itemes & cart 
-### - use static data initially 
-### - make your card dynamically 
-### - props -passing argumentes to a function -use destruturing and spredd operator.
-### - Render your card with dynamically data of restaurnts 
-### - use Array.map to render all the restaurants 
+### ✔️Build a food Ordering app 
+### ✔️Think of a coll name for your app 
+### ✔️Build a AppLayout
+### ✔️Build a header componet with Logo & nav Itemes & cart 
+### - ✔️use static data initially 
+### - ✔️make your card dynamically 
+### - ✔️props -passing argumentes to a function -use destruturing and spredd operator.
+### - ✔️Render your card with dynamically data of restaurnts 
+### - ✔️use Array.map to render all the restaurants 
  
