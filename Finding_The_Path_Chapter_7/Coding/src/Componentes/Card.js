@@ -1,7 +1,7 @@
 import { CDN_IMAGE_URL } from "../Utils/constant";
 const Card=(props)=>{     //props is js object
     var {name,locality,areaName,costForTwo,cloudinaryImageId, cuisines,avgRating}=props?.data.info;
-    console.log(props.data.info);
+
      return(
          <div className="card">
              <img className="card-image" alt="loading" src={CDN_IMAGE_URL+cloudinaryImageId}/>

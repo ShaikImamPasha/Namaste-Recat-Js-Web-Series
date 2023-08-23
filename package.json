@@ -4,7 +4,7 @@
   "description": "teaching by akshy",
   "scripts": {
     "build": "parcel build ./Laying_The_Foundation_Chapter_3/Coding/index.html",
-    "start": "parcel ./Exploring_The_World_Chapter_6/Coding/index.html",
+    "start": "parcel ./Finding_The_Path_Chapter_7/Coding/index.html",
     "test": "just"
   },
   "repository": {
@@ -23,7 +23,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0"
   },
   "browserlist": [
     "Last 2 Chrome version",

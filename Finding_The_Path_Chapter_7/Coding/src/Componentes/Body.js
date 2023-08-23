@@ -4,7 +4,7 @@ import Shimmer from "./Shimmer.js";
 import { useState,useEffect } from "react";
 const Body=()=>{
      //state vairable  -super powerful vairable
-     const resdata=useState(data);
+     const resdata=useState([]);
      const [tempdata,setTemdata]=resdata; 
      const [searchtest,setSearchtest]=useState("");
       const  [orgenaldata,setOrgenaldata]=useState([]);
@@ -19,6 +19,7 @@ const Body=()=>{
          json_data=json_data?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
          setTemdata(json_data);
          setOrgenaldata(json_data);
+         //console.log(json_data);
         }
         //console.log("body rendering");
         function searchdata(){
