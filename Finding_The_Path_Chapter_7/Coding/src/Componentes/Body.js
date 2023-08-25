@@ -2,13 +2,15 @@ import data from "../Utils/mockData.js";
 import Card from "./Card.js";
 import Shimmer from "./Shimmer.js";
 import { useState,useEffect } from "react";
+import InfiniteScroll from "react-infinite-scroll-component";
 const Body=()=>{
      //state vairable  -super powerful vairable
      const resdata=useState([]);
      const [tempdata,setTemdata]=resdata; 
      const [searchtest,setSearchtest]=useState("");
       const  [orgenaldata,setOrgenaldata]=useState([]);
-    
+    const [hasmore,setHashMore]=useState(true);
+    const [curentIndex,setCurentIndex]=useState(4);
   //  var restarandata=[];    //normal js varable
   useEffect(()=>{fetchdata()},[]); //it's worked after all componentes are renderd.
 
@@ -17,7 +19,7 @@ const Body=()=>{
          let json_data=await data1.json();
          //OPIONAL Chaing
          json_data=json_data?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
-         setTemdata(json_data);
+         setTemdata(json_data.slice(0,7));
          setOrgenaldata(json_data);
          //console.log(json_data);
         }
@@ -26,16 +28,42 @@ const Body=()=>{
             var filterdata=orgenaldata.filter((e)=> e.info.name.toLowerCase().includes(searchtest.toLowerCase()));
             setTemdata(filterdata);
         }
+        const loadNextData=()=>{
+            if(orgenaldata.length<=tempdata.length){
+                   setHashMore(false);
+                   console.log("cksdfc");
+                   return
+            }
+            setTimeout(()=>{
+                if(tempdata.length>0){
+                         setTemdata(tempdata.concat(orgenaldata.slice(curentIndex,curentIndex+4)));
+                         setCurentIndex(curentIndex+4);
+                         console.log("ckc");
+                }
+            },3000)
+    
+
+        }
     return(
         //CONDITIONAL RANDARING
        tempdata.length===0?<Shimmer/>: <div className="body">
-            <div className="search-bar card-container">
+        <InfiniteScroll dataLength={tempdata.length} next={loadNextData}
+        hasMore={hasmore} loader={<Shimmer/>}
+       endMessage={
+ <p style={{ textAlign: 'center' }}>
+   <b>Yay! You have seen it all</b>
+ </p>
+}   >
+                    <div className="search-bar card-container">
                 <input type="text" value={searchtest} onChange={(e)=>setSearchtest(e.target.value)}></input>
                   <button onClick={()=>searchdata()}>SEARCH</button>
             </div>
             <div className="card-container">
                 {tempdata.map((information)=>{return <Card key={information.info.id} data={information}/>})}
             </div>
+
+</InfiniteScroll>
+          
         </div>
     )
 }
