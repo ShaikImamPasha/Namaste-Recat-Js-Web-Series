@@ -22,17 +22,11 @@ const MenuRestarent=(props)=>{
            else{
             setPresntData([]);
            }
-    },2000)
+    },1500)
   }
     return(
         <>
-        {    
-        itemCards &&
-           <InfiniteScroll hasMore={hasmore}dataLength={presntData.length} next={fetchdata}
-           loader={<p>plesse wiat load tha food</p>}
-           endMessage={<p>end of data</p>}
-           >
-                {   <div onClick={()=> setArrow(!arrow)}>
+           { itemCards && <div onClick={()=> setArrow(!arrow)}>
                   <h3>{title}</h3>
                              {arrow && <span  className="material-symbols-outlined arrow">
                                 arrow_circle_up
@@ -43,11 +37,15 @@ const MenuRestarent=(props)=>{
                                    </span>
                                 } 
                              </div>
-                }
-        {!arrow && itemCards && presntData.map((data)=>{
+           }         
+           {!arrow && <InfiniteScroll hasMore={hasmore}dataLength={presntData.length} next={fetchdata}
+           loader={<p>plesse wiat load tha food</p>}
+           endMessage={<p>end of data</p>}
+           >
+        {itemCards && presntData.map((data,index)=>{
             return(
                 <>
-        <div className="retarentName INNERMENU">
+        <div key={index}className="retarentName INNERMENU">
               <div>
                <h4>{data.card.info.name}</h4>
                <p>₹{data.card.info.price}</p>
@@ -62,8 +60,7 @@ const MenuRestarent=(props)=>{
         }
     )
 }
-           </InfiniteScroll>
-        }
+           </InfiniteScroll>}
         </>
      )
 }
