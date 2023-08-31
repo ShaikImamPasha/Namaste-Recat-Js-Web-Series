@@ -4,6 +4,7 @@ import Shimmer from "./Shimmer.js";
 import { useState,useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 const Body=()=>{
+    console.log(useState());
      //state vairable  -super powerful vairable
      const resdata=useState([]);
      const [tempdata,setTemdata]=resdata; 
