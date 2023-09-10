@@ -38,6 +38,11 @@
 - ### 📚 [Coding](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/tree/main/Finding_The_Path_Chapter_7/Coding)
 - ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Finding_The_Path_Chapter_7/code%26%26assisment_questions.md)
 
+### <------------------------------------->
+ ### Let's_Get_Classy_Chapter_8🚀
+- ### 📚 [Theory](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Let's_Get_Classy_Chapter_8/Theory/Theory.md)
+- ### 📚 [Coding](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/tree/main/Let's_Get_Classy_Chapter_8/Coding)
+- ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Let's_Get_Classy_Chapter_8/code%26%26assisment_questions.md)
 
 
 
