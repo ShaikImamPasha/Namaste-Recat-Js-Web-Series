@@ -1,7 +1,7 @@
 import React from "react";
 class UserClass extends React.Component{
     constructor(props){  //constructor is used for initialize and create an object with a class
-        super(props);  //super is used to call tha class method(ex render()) and data. 
+        super(props); 
       //  console.log(this.props) when u are use tha props in this constructor then we pass props to super and constructor otherwise not need. 
     //   this.state={
     //     count:1,

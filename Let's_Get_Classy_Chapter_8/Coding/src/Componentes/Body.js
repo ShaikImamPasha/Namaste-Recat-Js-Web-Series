@@ -12,7 +12,8 @@ const Body=()=>{
     const [hasmore,setHashMore]=useState(true);
     const [curentIndex,setCurentIndex]=useState(4);
   //  var restarandata=[];    //normal js varable
-  useEffect(()=>{fetchdata()
+  useEffect(()=>{
+    fetchdata()
  const timer=setInterval(()=>{console.log("useEffect")},1000);
   return()=>{
     clearInterval(timer);
