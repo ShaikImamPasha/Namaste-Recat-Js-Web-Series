@@ -13,6 +13,6 @@
 -Render Phase
 ### -constructor() it is called only intiail stage(when load tha class)
 ### -render() 
--Commit Phase 
+# -Commit Phase 
 
 
