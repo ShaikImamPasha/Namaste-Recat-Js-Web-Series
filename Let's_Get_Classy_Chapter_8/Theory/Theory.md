@@ -10,9 +10,9 @@
 
 ## 1.Mounting
 ### -Tha order of methods called in this cycle 
-#### -Render Phase
-# -constructor() it is called only intiail stage(when load tha class)
-# -render() 
-#### -Commit Phase 
--
+-Render Phase
+### -constructor() it is called only intiail stage(when load tha class)
+### -render() 
+-Commit Phase 
+
 
