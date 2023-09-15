@@ -39,6 +39,6 @@ export default useOnlineStates;
 #### ✔️disadvantages of code splitting:- 
 - more network requests are need.
 - increased tasting processes.
-### 5.When do we and why do we need suspense?
+### 4.When do we and why do we need suspense?
 #### ✔️suspense is a component.it is used when tha actually code is not loaded in lazy function.
 - if we not use this we got tha errors sometimes.because react is fast to load.but we don't have load tha code that time(if use tha lazy).so that time we use this component to load tha shimmer(like loading...).
