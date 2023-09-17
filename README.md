@@ -50,6 +50,12 @@
 - ### 📚 [Coding](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/tree/main/Optimising_Our_App_Chapter_9/Coding)
 - ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Optimising_Our_App_Chapter_9/code%26%26assisment_questions.md)
 
+### <------------------------------------->
+ ### Jo_Dikhta_Hai_Vo_Bikta_Hai_Chapter_10 🚀
+- ### 📚 [Theory](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Jo_Dikhta_Hai_Vo_Bikta_Hai_Chapter_10/Theory/Theory.md)
+- ### 📚 [Coding](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/tree/main/Jo_Dikhta_Hai_Vo_Bikta_Hai_Chapter_10/Coding)
+- ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Jo_Dikhta_Hai_Vo_Bikta_Hai_Chapter_10/code%26%26assisment_questinos.md)
+
 
 
 
