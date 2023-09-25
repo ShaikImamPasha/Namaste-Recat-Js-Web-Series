@@ -57,7 +57,7 @@
 - ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Jo_Dikhta_Hai_Vo_Bikta_Hai_Chapter_10/code%26%26assisment_questinos.md)
 
 ### <------------------------------------->
- ### Jo_Dikhta_Hai_Vo_Bikta_Hai_Chapter_10 🚀
+ ### Data_Is_The_New_Oil_Chapter_11 🚀
 - ### 📚 [Theory](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Data_Is_The_New_Oil_Chapter_11/Theory/Theory.md)
 - ### 📚 [Coding](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/tree/main/Data_Is_The_New_Oil_Chapter_11/Coding)
 - ### 📚 [Code and Theory questiones](https://github.com/ShaikImamPasha/Namaste-Recat-Js-Web-Series/blob/main/Data_Is_The_New_Oil_Chapter_11/code%26%26assisment.md)
