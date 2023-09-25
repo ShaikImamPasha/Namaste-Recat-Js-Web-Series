@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [ "./Jo_Dikhta_Hai_Vo_Bikta_Hai_Chapter_10/Coding/src/**/*.{html,js,ts,jsx,tsx}"],
+  content: [ "./Data_Is_The_New_Oil_Chapter_11/Coding/src/**/*.{html,js,ts,jsx,tsx}"],
   theme: {
     extend: {},
   },

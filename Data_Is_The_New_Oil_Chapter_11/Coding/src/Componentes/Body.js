@@ -1,5 +1,5 @@
 import data from "../Utils/mockData.js";
-import Card from "./Card.js";
+import Card,{withDiscountCard} from "./Card.js";
 import Shimmer from "./Shimmer.js";
 import { useState,useEffect } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
@@ -13,6 +13,7 @@ const Body=()=>{
       const  [orgenaldata,setOrgenaldata]=useState([]);
     const [hasmore,setHashMore]=useState(true);
     const [curentIndex,setCurentIndex]=useState(4);
+    const CardWithDiscount=withDiscountCard(Card);
   //  var restarandata=[];    //normal js varable
   useEffect(()=>{
     fetchdata()
@@ -30,7 +31,7 @@ const Body=()=>{
          json_data=json_data?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants;
          setTemdata(json_data.slice(0,7));
          setOrgenaldata(json_data);
-         //console.log(json_data);
+        
         }
         //console.log("body rendering");
         function searchdata(){
@@ -60,7 +61,8 @@ const Body=()=>{
   color="white"
   size={90}
   speedMultiplier={0.7}
-/><img className="w-15 h-14" src="https://www.shutterstock.com/shutterstock/photos/280146098/display_1500/stock-vector--hamburger-icon-280146098.jpg"></img></div>
+/><img className="w-13 h-12 absolute" src="https://cdn.create.vista.com/api/media/small/470797866/stock-vector-big-hamburger-silver-plated-metallic-icon"></img>
+</div>
                          <Shimmer/>     
        </div>
        : 
@@ -73,7 +75,11 @@ const Body=()=>{
               <span class="material-symbols-outlined w-7 bg-orange-400" onClick={searchdata}>search</span>
         </div>
        <div className="flex flex-wrap items-center justify-center">
-                {tempdata.map((information)=>{return <Card key={information.info.id} data={information}/>})}
+                {tempdata.map((information)=>{
+                 return(
+                 information.info.aggregatedDiscountInfoV3?<CardWithDiscount key={information.info.id} data={information}/>:<Card key={information.info.id} data={information}></Card>
+                 ) 
+                 })}
        </div>
         </div>
 
