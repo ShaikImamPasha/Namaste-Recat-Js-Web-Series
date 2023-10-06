@@ -8,6 +8,9 @@ import {createBrowserRouter,RouterProvider,Outlet} from "react-router-dom";
 import { Suspense,lazy, useState } from "react";
 import UserContext from "./Utils/UserContext";
 import CardState from "./Utils/CardState";
+import { Provider } from "react-redux";
+import appStore from "./Utils/Redux/appStore";
+import FavourateCard from "./Componentes/FavourateCard";
 /**
  * Low level planing
  * NavBar
@@ -31,14 +34,16 @@ const AppLayout=()=>{
   const [cardNumber,setCardNumber]=useState(0);
     return(
         /** */
-        <CardState.Provider value={{no: cardNumber,setCardNumber}}>
-          <UserContext.Provider value={{loggedIn: "pasha"}}>
-             <div className="app">
-               <objtype.Header/>
-                <Outlet />
-             </div>
-           </UserContext.Provider>
-        </CardState.Provider>
+       <Provider store={appStore}>
+           <CardState.Provider value={{no: cardNumber,setCardNumber}}>
+              <UserContext.Provider value={{loggedIn: "pasha"}}>
+                 <div className="app">
+                   <objtype.Header/>
+                  <Outlet />
+                 </div>
+              </UserContext.Provider>
+             </CardState.Provider>
+       </Provider>
     )
 }
 const Approter=createBrowserRouter([
@@ -62,6 +67,9 @@ const Approter=createBrowserRouter([
       {
         path: "/restaurent/:resid",
         element: <Restaurent />
+      },{
+        path: "/FavourateCard",
+        element: <FavourateCard />
       }
    ]
   }

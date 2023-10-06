@@ -4,10 +4,10 @@ import useOnlineStates from "../Utils/useOnlineStates";
 import { useContext } from "react";
 import UserContext from "../Utils/UserContext";
 import CardState from "../Utils/CardState";
+import { UseSelector, useSelector } from "react-redux/es/hooks/useSelector";
 export const Header=()=>{
     const states=useOnlineStates(); 
-    const {loggedIn}=useContext(UserContext);
-    const {no}=useContext(CardState);
+    const itemCards=useSelector((state)=>state.cart.itemes);
     return(
         <div className="flex  h-24 justify-around shadow-lg items-center flex-wrap sticky top-0 bg-white z-40">
             <div className="">
@@ -24,11 +24,8 @@ export const Header=()=>{
                         <li  className="px-2 h-auto"><Link to="/">Home</Link></li>
                         <li  className="px-2 h-auto"><Link to="/about">About Us</Link></li>
                         <li  className="px-2 h-auto"><Link to="/contact">Contact us</Link></li>
-                        <li  className="px-2 h-auto">Cart</li>
+                        <li  className="px-2 h-auto"><Link to="/FavourateCard">Cart{itemCards.length}</Link></li>
                         <li  className="px-2 h-auto">Login</li>
-                        <div>
-                            {no}
-                        </div>
                     </ul>
             </div>
         </div>

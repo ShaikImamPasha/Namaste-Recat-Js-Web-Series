@@ -4,7 +4,7 @@
   "description": "teaching by akshy",
   "scripts": {
     "build": "parcel build ./Laying_The_Foundation_Chapter_3/Coding/index.html",
-    "start": "parcel ./Data_Is_The_New_Oil_Chapter_11/Coding/index.html",
+    "start": "parcel ./Let_s_Build_Our_Store_Chapter_12/Coding/index.html",
     "test": "just"
   },
   "repository": {
@@ -19,14 +19,16 @@
   "homepage": "https://github.com/ShaikImamPasha/NamasteDev-Recat-Js-Web-Series#readme",
   "devDependencies": {
     "parcel": "^2.9.3",
-    "postcss": "^8.4.29",
+    "postcss": "^8.4.30",
     "process": "^0.11.10",
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-infinite-scroll-component": "^6.1.0",
+    "react-redux": "^8.1.2",
     "react-router-dom": "^6.15.0",
     "react-spinners": "^0.13.8"
   },
